@@ -37,7 +37,8 @@ columns.compare = c("movie_title", "director_name", "genres", "actors", "duratio
 #movie.title = "Tangled"
 #movie.title = "Rent"
 #movie.title = "Silver Linings Playbook"
-movie.title = "The Purge"
+#movie.title = "The Purge"
+movie.title = "The Big Short"
 movie.ref = movies[movies$movie_title==movie.title, columns.compare]
 
 
